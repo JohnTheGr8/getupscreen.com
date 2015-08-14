@@ -1,0 +1,199 @@
+html {
+	height: 100%;
+	background-color: #394046;
+}
+
+body {
+	background-color: white;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	color: #555;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding: 1em 0;
+}
+
+header * {
+	margin: 0 auto;
+	display: block;
+	font-style: italic;
+	text-align: center;
+}
+
+header img {
+	width: 400px;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+section .ui{
+	max-width: 800px;
+	margin-left:  auto !important;
+	margin-right: auto !important;
+}
+
+section {
+	margin: 1em 0;
+}
+
+section .feature {
+	font-weight: 600;
+	padding-top: 0.4em;
+}
+
+section .description {
+	padding-top: 0.4em;
+}
+
+section [class^="icon-"] {
+	font-size: 2.8em;
+}
+
+section.more-reasons {	
+	background-color: #DDDDDD;
+	padding-top: 	1.2em;
+	padding-bottom: 1.2em;
+}
+
+section.more-reasons .description {
+	padding: 0.4em 1.1em;
+}
+
+section.more-reasons [class^="icon-"] {
+	float: left;
+}
+
+section.more-reasons .description:after {
+   clear: both;
+}
+
+section.download {
+	padding: 1.2em 0;
+}
+
+section.download * {
+	margin: 0 auto;
+	display: block;
+	
+	text-align: center;
+}
+
+section.download label {
+	font-style: italic;
+}
+
+footer {
+	color: #999;
+	background-color: #394046;
+	padding: 1.2em 0;
+}
+
+footer a {
+	color: #DDD;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+footer span {
+	display: block;
+}
+
+footer .ui{
+	max-width: 800px;
+	margin-left:  auto !important;
+	margin-right: auto !important;
+}
+
+@media only screen and (max-width: 767px) {
+
+	section .description { display: block; }
+
+	section.more-reasons [class^="icon-"] {
+		float: none;
+	}
+
+}
+
+.button {
+	font-family: 'Open Sans', Arial, sans-serif;  
+	font-size: 18px;
+	font-weight: 300;
+	color: rgb(255, 255, 255);
+	color: #FFF;
+	text-decoration: none;
+	background: #15a5db;
+	padding: 16px;
+	border: 0px none;
+	outline: 0px none;
+	cursor: pointer;
+}
+.button:hover  { background: #43434a; }
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-evtx15');
+	src:url('../fonts/icomoon.eot?#iefix-evtx15') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-evtx15') format('woff'),
+		url('../fonts/icomoon.ttf?-evtx15') format('truetype'),
+		url('../fonts/icomoon.svg?-evtx15#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-paste:before {
+	content: "\e600";
+}
+.icon-earth:before {
+	content: "\e601";
+}
+.icon-github:before {
+	content: "\e602";
+}
+.icon-browser:before {
+	content: "\e603";
+}
+.icon-googleplus:before {
+	content: "\e604";
+}
+.icon-paperplane:before {
+	content: "\e605";
+}
+.icon-users:before {
+	content: "\e606";
+}
+.icon-export:before {
+	content: "\e607";
+}
+.icon-share:before {
+	content: "\e608";
+}
+.icon-drive:before {
+	content: "\e60b";
+}
+.icon-browser2:before {
+	content: "\e609";
+}
+.icon-upload:before {
+	content: "\e60a";
+}
