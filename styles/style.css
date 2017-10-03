@@ -133,6 +133,7 @@ footer .ui{
 	border: 0px none;
 	outline: 0px none;
 	cursor: pointer;
+	max-width: 195px;
 }
 .button:hover  { background: #43434a; }
 
